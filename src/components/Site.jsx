@@ -1,51 +1,6 @@
 import React from "react";
+import { siteText } from "../constants";
 
-const siteText = [
-  {
-    text:["make","site compliant with","webstandard"],
-    title:"vite를 이용한 사이트 제작",
-    code:"https://github.com/Kim-YS52/port2024-vite",
-    view:"https://ysweb-vite.netlify.app/",
-    info:[
-      "site coding",
-      "production period : two days",
-      "use stack : html5/css3, CSS Variable, Vite",
-    ],
-  },
-  {
-    text:["make","site compliant with","react.js"],
-    title:"react 이용한 사이트 제작",
-    code:"https://github.com/Kim-YS52/port2024-react",
-    view:"/",
-    info:[
-      "site coding",
-      "production period : two days",
-      "use stack : html5/css3, CSS Variable, react",
-    ],
-  },
-  {
-    text:["make","site compliant with","vue.js"],
-    title:"vue 이용한 사이트 제작",
-    code:"/",
-    view:"/",
-    info:[
-      "site coding",
-      "production period : two days",
-      "use stack : html5/css3, CSS Variable, vue",
-    ],
-  },
-  {
-    text:["make","site compliant with","next.js"],
-    title:"next 이용한 사이트 제작",
-    code:"/",
-    view:"/",
-    info:[
-      "site coding",
-      "production period : two days",
-      "use stack : html5/css3, CSS Variable, next.js",
-    ],
-  },
-];
 const Site = () => {
   return (
     <section id="site">
